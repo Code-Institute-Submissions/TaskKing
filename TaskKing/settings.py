@@ -26,10 +26,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-%cr3n&ke_e@uh$=$(fv4x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['taskking-7ce617e550d9.herokuapp.com', 'localhost', '127.0.0.1', '8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net',]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net']
-
+CSRF_TRUSTED_ORIGINS = ['https://taskking-7ce617e550d9.herokuapp.com', 'https://8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net']
 # Application definition
 
 INSTALLED_APPS = [
