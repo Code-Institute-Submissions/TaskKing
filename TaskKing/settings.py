@@ -24,11 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-%cr3n&ke_e@uh$=$(fv4x(js4*crj3o%ykvnaxo)ypw56%*4po')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['taskking-7ce617e550d9.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net', 'localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://taskking-7ce617e550d9.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://8000-tootechnical-taskking-nled5c0xuz9.ws.codeinstitute-ide.net']
 
 # Application definition
 
@@ -71,14 +71,15 @@ TEMPLATES = [
     },
 ]
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 WSGI_APPLICATION = 'TaskKing.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-DATABASES = {
-    'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
