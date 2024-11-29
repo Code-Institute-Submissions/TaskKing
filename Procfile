@@ -1,1 +1,1 @@
-web: gunicorn taskking.wsgi
+web: gunicorn TaskKing.wsgi
