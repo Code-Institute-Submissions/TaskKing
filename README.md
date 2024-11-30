@@ -158,6 +158,15 @@ TaskKing is a robust and well-structured Django project designed to streamline t
   Expose REST APIs with other task management tools or mobile apps for external integrations.
 
 ---
+## **Credits**
+
+- [Black Box AI for some assistance with figuring out errors ](https://www.blackbox.ai/) 
+- [OpenAI Code Examples](https://chat.openai.com/)
+- [How to write good commit messages](https://cbea.ms/git-commit/#separate)
+- [Django Documentation](https://docs.djangoproject.com/en/5.1/)
+- [Learn Django in 20 Minutes!!](https://www.youtube.com/watch?v=nGIg40xs9e4&t=661s)
+- [Python Django Tutorial: Full-Featured Web App Part 1 - Getting Started](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+---
 
 ## **Conclusion**
 TaskKing is a scalable, user-friendly task management application built on Django. It combines modern UI/UX design with robust backend functionality, making it an ideal solution for both personal and team-based task management. The project adheres to Django's best practices, ensuring maintainability, flexibility, and a smooth user experience across various devices and platforms.
