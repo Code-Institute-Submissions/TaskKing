@@ -127,10 +127,12 @@ TaskKing is a robust and well-structured Django project designed to streamline t
 ## **Visual Overview**
 
 ### Color Palette
-![TaskKing Color Palette](image)
+![TaskKing](readmepics/color.png)
 
 ### Interface Design
-![TaskKing UI Design](image)
+![TaskKing](readmepics/EnterTasks.png)
+![TaskKing](readmepics/Login.png)
+![TaskKing](readmepics/Register.png)
 
 ---
 
