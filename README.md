@@ -24,7 +24,7 @@ TaskKing is a robust and well-structured Django project designed to streamline t
 - **CRUD Operations**:
   - Create, read, update, and delete tasks easily with interactive buttons.
 - **Task Prioritization**:
-  - Assign priority levels to tasks (e.g., High, Medium, Low) with color-coded indicators.
+  - Assign task priority levels (e.g., High, Medium, Low) with color-coded indicators.
 - **Search and Filter**:
   - Search tasks by keywords.
   - Filter tasks based on their status (e.g., Completed, Pending, In Progress).
@@ -101,9 +101,9 @@ TaskKing is a robust and well-structured Django project designed to streamline t
 
 ### **Design Features**
 - **Background**:  
-  A dynamic 135-degree linear gradient from deep purple (#4A0E4E) to cyan (#00FFFF), providing a vibrant and modern look.
+  A dynamic 135-degree linear gradient from deep purple (#4A0E4E) to cyan (#00FFFF), provides a vibrant and modern look.
 - **Cards**:  
-  Semi-transparent white cards with a 10% opacity and subtle blur effect for a glassmorphism style.
+  Semi-transparent white cards with a 10% opacity and subtle blur effect for a glass morphism style.
 
 ### **Typography**
 | **Text Element**  | **Font**     | **Weight** |
@@ -136,6 +136,15 @@ TaskKing is a robust and well-structured Django project designed to streamline t
 
 ---
 
+## **Light House Tests**
+![TaskKing](readmepics/l1.png)
+![TaskKing](readmepics/l2.png)
+![TaskKing](readmepics/l3.png)
+![TaskKing](readmepics/l4.png)
+![TaskKing](readmepics/l5.png)
+![TaskKing](readmepics/l6.png)
+![TaskKing](readmepics/l7.png)
+
 ## **Future Enhancements**
 - **User Profile Management**:  
   Allow users to edit profiles, upload avatars, and manage personal preferences.
@@ -146,10 +155,10 @@ TaskKing is a robust and well-structured Django project designed to streamline t
 - **Advanced Analytics**:  
   Provide task completion rates, time tracking, and productivity insights.
 - **API Integration**:  
-  Expose REST APIs for external integrations with other task management tools or mobile apps.
+  Expose REST APIs with other task management tools or mobile apps for external integrations.
 
 ---
 
 ## **Conclusion**
-TaskKing is a scalable, user-friendly task management application built on Django. It combines modern UI/UX design with robust backend functionality, making it an ideal solution for both personal and team-based task management. The project adheres to Django best practices, ensuring maintainability, flexibility, and a smooth user experience across various devices and platforms.
+TaskKing is a scalable, user-friendly task management application built on Django. It combines modern UI/UX design with robust backend functionality, making it an ideal solution for both personal and team-based task management. The project adheres to Django's best practices, ensuring maintainability, flexibility, and a smooth user experience across various devices and platforms.
 
